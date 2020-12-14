@@ -10,4 +10,6 @@ let g:plug_timeout = 300 "Increase vim-plug timeout for YouCompleteMe.
 Plug 'ycm-core/YouCompleteMe',{'do':'./install.py'}
 
 Plug 'sjl/gundo.vim'
+
+Plug 'tpope/vim-fugitive'
 call plug#end()
